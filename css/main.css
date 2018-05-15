@@ -1,7 +1,45 @@
 * {
-box-sizing: border-box
+box-sizing: border-box;
 }
 
-.input-box {
+.search {
   text-align: center;
+  padding-top: 40px;
+}
+
+.input-search {
+  width: 300px;
+  height: 35px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+img {
+  padding: 15px;
+  border-radius: 10px;
+  height: 30%;
+  width: 20%;
+  margin: 0;
+}
+
+/*
+Media Queries
+*/
+
+@media (min-width: 768px) {
+
+  img {
+    padding: 10px;
+    border-radius: 10px;
+    height: 30%;
+    width: 20%;
+  }
+  .row {
+    padding: 0 60px;
+    margin: auto;
+  }
 }
